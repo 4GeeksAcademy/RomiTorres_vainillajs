@@ -9,6 +9,9 @@ window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
 
+  let salute = document.querySelector("#title");
+  salute.innerHTML = "Hi Rigo, I am Romina!!!";
+
   // declaracion de variables
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
